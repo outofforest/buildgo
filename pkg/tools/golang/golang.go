@@ -376,6 +376,7 @@ func lintConfigPath(ctx context.Context) string {
 func env(ctx context.Context) []string {
 	return []string{
 		"PATH=" + filepath.Join(tools.VersionDir(ctx, tools.PlatformLocal), "bin") + ":" + os.Getenv("PATH"),
+		"HOME=" + os.Getenv("HOME"),
 		"GOPATH=" + filepath.Join(tools.DevDir(ctx), "go"),
 		"GOCACHE=" + filepath.Join(tools.DevDir(ctx), "go", "cache", "gobuild"),
 		"GOLANGCI_LINT_CACHE=" + filepath.Join(tools.DevDir(ctx), "go", "cache", "golangci"),
