@@ -17,7 +17,7 @@ require (
 	github.com/outofforest/parallel v0.2.3 // indirect
 	github.com/outofforest/run v0.8.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/samber/lo v1.52.0 // indirect
+	github.com/samber/lo v1.53.0 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/ulikunitz/xz v0.5.15 // indirect
 	go.uber.org/multierr v1.11.0 // indirect

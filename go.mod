@@ -7,7 +7,7 @@ require (
 	github.com/outofforest/libexec v0.5.0
 	github.com/outofforest/logger v0.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/samber/lo v1.52.0
+	github.com/samber/lo v1.53.0
 	go.uber.org/zap v1.27.1
 )
 
